@@ -1,5 +1,8 @@
 
 import React from 'react';
+import img3 from '../assets/img3.png';
+import img4 from '../assets/img4.png';
+import img5 from '../assets/img5.png';
 
 const ServicesProducts = () => {
   return (
@@ -12,7 +15,7 @@ const ServicesProducts = () => {
         <div class="flex flex-wrap -m-4">
           <div class="lg:w-1/3 sm:w-1/2 p-4">
             <div class="flex relative">
-              <img alt="gallery" class="absolute inset-0 w-full h-full object-cover object-center" src="/src/assets/img3.png"/>
+              <img alt="gallery" class="absolute inset-0 w-full h-full object-cover object-center" src={img3}/>
               <div class="px-8 py-10 relative z-10 w-full border-4 border-gray-800 bg-gray-900 opacity-0 hover:opacity-100">
                 <h2 class="tracking-widest text-sm title-font font-medium text-indigo-400 mb-1">Research & Healthcare</h2>
                 {/* <h1 class="title-font text-lg font-medium text-white mb-3">Shooting Stars</h1> */}
@@ -22,7 +25,7 @@ const ServicesProducts = () => {
           </div>
           <div class="lg:w-1/3 sm:w-1/2 p-4">
             <div class="flex relative">
-              <img alt="gallery" class="absolute inset-0 w-full h-full object-cover object-center" src="/src/assets/img4.png"/>
+              <img alt="gallery" class="absolute inset-0 w-full h-full object-cover object-center" src={img4}/>
               <div class="px-8 py-10 relative z-10 w-full border-4 border-gray-800 bg-gray-900 opacity-0 hover:opacity-100">
                 <h2 class="tracking-widest text-sm title-font font-medium text-indigo-400 mb-1">AI/ML for Precision Healthcare</h2>
                 {/* <h1 class="title-font text-lg font-medium text-white mb-3"></h1> */}
@@ -32,7 +35,7 @@ const ServicesProducts = () => {
           </div>
           <div class="lg:w-1/3 sm:w-1/2 p-4">
             <div class="flex relative">
-              <img alt="gallery" class="absolute inset-0 w-full h-full object-cover object-center" src="/src/assets/img5.png"/>
+              <img alt="gallery" class="absolute inset-0 w-full h-full object-cover object-center" src={img5}/>
               <div class="px-8 py-10 relative z-10 w-full border-4 border-gray-800 bg-gray-900 opacity-0 hover:opacity-100">
                 <h2 class="tracking-widest text-sm title-font font-medium text-indigo-400 mb-1">Sustainable Development</h2>
                 {/* <h1 class="title-font text-lg font-medium text-white mb-3">The 400 Blows</h1> */}

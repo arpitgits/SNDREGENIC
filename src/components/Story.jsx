@@ -1,6 +1,6 @@
 import React from 'react';
 // import img from '../assets/img'
-
+import img2 from '../assets/img2.png';
 const Story = () => {
   return (
     <section class="text-white bg-indigo-600 body-font">
@@ -16,7 +16,7 @@ const Story = () => {
     </div>
     
     <div class="lg:max-w-lg lg:w-full md:w-1/2 w-5/6 md:mb-0 mb-10">
-      <img class="object-cover object-center rounded" alt="hero" src='/src/assets/img2.png'/>
+      <img class="object-cover object-center rounded" alt="hero" src={img2}/>
     </div>
   </div>
 </section>

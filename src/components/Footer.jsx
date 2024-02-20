@@ -1,5 +1,5 @@
 import React from 'react';
-
+import logo from '../assets/logo.png';
 const Footer = () => {
   return (
 
@@ -9,7 +9,7 @@ const Footer = () => {
             {/* <svg xmlns="http://www.w3.org/2000/svg" fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2" class="w-10 h-10 text-white p-2 bg-indigo-500 rounded-full" viewBox="0 0 24 24">
                 <path d="M12 2L2 7l10 5 10-5-10-5zM2 17l10 5 10-5M2 12l10 5 10-5"></path>
             </svg> */}
-            <img class="w-20 h-20 text-white p-2 rounded-full" alt="hero" src="/src/assets/logo.png" />
+            <img class="w-20 h-20 text-white p-2 rounded-full" alt="hero" src={logo} />
             <span class="ml-3 text-xl">SNDREGENIC</span>
             </a>
             <p class="text-sm text-gray-400 sm:ml-4 sm:pl-4 sm:border-l-2 sm:border-gray-800 sm:py-2 sm:mt-0 mt-4">© 2024 by SNDREGENIC BIOMED PVT. LTD. All Rights Reserved.
